@@ -23,7 +23,7 @@ chatForm.addEventListener("submit", async (event) => {
     });
 
     const responseText = await response.text();
-    addMessageToChatbox(`<b>ChatGPT:</b> ${responseText}`);
+    addMessageToChatbox(`<b>Mesero:</b> ${responseText}`);
 });
 
 function addMessageToChatbox(message) {
